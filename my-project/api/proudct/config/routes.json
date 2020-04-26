@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/proudcts",
+      "handler": "proudct.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/proudcts/count",
+      "handler": "proudct.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/proudcts/:id",
+      "handler": "proudct.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/proudcts",
+      "handler": "proudct.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/proudcts/:id",
+      "handler": "proudct.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/proudcts/:id",
+      "handler": "proudct.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
